@@ -71,11 +71,11 @@ a {
     padding: 24px 0;
     display: block;
     position: relative;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-item {
     position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .nav-link::after {
     content: "";
@@ -130,6 +130,7 @@ a {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+    max-width: 1440px;
 }
 
 .top-title {
@@ -163,7 +164,7 @@ a {
         margin: auto;
         align-items: center;
         justify-items: center;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-button:hover,
@@ -177,7 +178,7 @@ background-color: #404BBF
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .benefits-title{
     font-weight: 500;
@@ -469,6 +470,8 @@ max-width: 1440px;
     height: 100%;
     background-color: #4D5AE5;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
   
 }
 
