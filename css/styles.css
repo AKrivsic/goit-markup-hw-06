@@ -67,7 +67,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #404bbf;
     padding: 24px 0;
     display: block;
     position: relative;
@@ -75,8 +75,9 @@ a {
 }
 .nav-item {
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-link:active::after {
+.nav-link::after {
     content: "";
     position: absolute;
     left: 0;
@@ -99,7 +100,7 @@ a {
     color: #434455;
     display: block;
     padding: 24px 0;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -115,6 +116,7 @@ a {
     padding: 100px 0;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: baseline;
 }
 
 .top {
@@ -175,6 +177,7 @@ background-color: #404BBF
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .benefits-title{
     font-weight: 500;
@@ -376,10 +379,10 @@ max-width: 1440px;
 }
 
 .page-footer .footer-container {
-    align-items: center;
+    
     justify-content: space-between;
     margin-left: 100px;
-    }
+}
 
 .footer-logo {
     display: inline-block;
@@ -554,6 +557,7 @@ overflow: hidden;
         justify-content: center;
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -565,4 +569,5 @@ overflow: hidden;
 .footer-team-socicon {
     width: 40px;
         height: 40px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
