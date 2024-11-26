@@ -713,7 +713,7 @@ border: 1px solid #fff;
 }
 
 
-.close-btn:hover{
+.close-btn:hover {
         background-color: #404BBF;
         border: none;
     }
@@ -731,11 +731,11 @@ border: 1px solid #fff;
 
 
 .close-btn:hover .form-close-icon {
-    fill: #FFFFFF;
+    fill: #ffffff;
 }
 
 .close-btn:focus .form-close-icon {
-    fill: #FFFFFF;
+    fill: #ffffff;
 }
 
 .form-name {
@@ -848,7 +848,7 @@ font-weight: 400;
 
 .form-agreement {
     margin-top: 20px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .form-checkbox{
@@ -874,7 +874,7 @@ font-weight: 400;
    transition-property: opacity;
 }
 
-.input[type='checkbox']:checked .form-checkbox {
+.input[type='checkbox']:checked + .form-checkbox {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
