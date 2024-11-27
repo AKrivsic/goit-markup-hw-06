@@ -874,22 +874,16 @@ font-weight: 400;
    transition-property: opacity;
 }
 
-.input[type='checkbox']:checked + .form-checkbox {
-    background-color: #404bbf;
+input[type='checkbox']:checked +
+.form-agreement-text .form-checkbox {
+    background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
 }
 
-input[type='checkbox']:checked
-+ .form-agreement-text
-.form-checkbox {
-    background-color: #404BBF;
-    border-color: #404BBF;
-    
-}
-
-input[type='checkbox']:checked
-+.form-agreement-text .form-checkbox 
+input[type='checkbox']:checked +
+.form-agreement-text 
+.form-checkbox 
 .form-checkbox-icon {
     opacity: 1;
 }
